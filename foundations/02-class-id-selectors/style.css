@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+p {
+    background-color: darksalmon;
+}
+
+#n1 {
+    font-size: 18px;
+}
+
+#n2 {
+    color: blue;
+    font-size: 33px;
+}
+
+#n3 {
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#n4 {
+    background-color: lightgreen;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#n5 {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
