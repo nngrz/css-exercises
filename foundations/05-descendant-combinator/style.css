@@ -1,0 +1,14 @@
+.container {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+#mo {
+    margin-bottom: 0;
+}
+
+.container  .text {
+    margin-top: 20px;
+}
