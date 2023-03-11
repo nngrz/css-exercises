@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -11,7 +15,6 @@ body, html {
 }
 
 .container div {
-  padding: 15px;
   font-size: 32px;
   font-family: Helvetica;
   font-weight: bold;
@@ -21,18 +24,38 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  height: 70px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  height: 615px;
+  margin-top: 15px;
 }
 
 .sidebar {
   background-color: #FF7755;
+  width: 1600px;
+}
+
+.sn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 0;
+  margin-left: 15px;
 }
 
 .nav {
   background-color: #00DDFF;
+  padding: 10px 20px 20px 20px;
 }
 
 .article {
   background-color: #bccbde;
+  height: 650px ;
+  padding: 15px;
 }
 
 .article p {
@@ -44,4 +67,6 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  height: 70px;
+  margin-top: 15px;
 }
